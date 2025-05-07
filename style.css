@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 
 @font-face {
@@ -72,6 +72,7 @@ nav a:hover {
 main {
   min-width: 500px;
   max-width: 1000px;
+  line-height: 35px;
   background-color: var(--cor7);
   margin: auto;
   padding: 18px;
@@ -209,4 +210,11 @@ main li {
 
 aside li {
   color: var(--cor7);
+}
+
+footer{
+  text-align: center;
+  background-color: var(--cor6);
+  margin-top: 5px;
+  padding: 10px;
 }
