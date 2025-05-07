@@ -218,3 +218,7 @@ footer{
   margin-top: 5px;
   padding: 10px;
 }
+
+.pagina-atual{
+  background-color: var(--cor2);
+}
