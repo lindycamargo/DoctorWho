@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 5px;
+}
+
+@font-face {
+  font-family: "Doctor";
+  src: url(fontes/DOCWHO.TTF) format(opentype);
+  font-weight: normal;
+}
+
+:root {
+  --cor1: #ffe202;
+  --cor2: #4d006b;
+  --cor3: #3f00b5;
+  --cor4: #002877;
+  --cor5: #100651;
+  --cor6: #8f09bbd0;
+  --cor7: #cccaff;
+
+  --fonte-padrao: Arial;
+  --fonte-doctor: "Doctor";
+}
+body {
+  background-image: linear-gradient(var(--cor2), var(--cor3), var(--cor5));
+  background-repeat: no-repeat;
+  font-family: var(--fonte-padrao);
+}
+
+header {
+  background-image: var(--cor4);
+  text-align: center;
+  height: 220px;
+  padding-top: 20px;
+}
+
+header h1 {
+  font-family: var(--fonte-doctor);
+  color: var(--cor1);
+  font-size: 120px;
+  text-shadow: -3px 4px 8px black;
+  margin-bottom: 20px;
+}
+
+header p {
+  color: var(--cor4);
+  font-family: var(--fonte-texto);
+  font-size: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+nav {
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  background-color: var(--cor6);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+nav a:hover {
+  background-color: var(--cor2);
+}
+
+main {
+  min-width: 500px;
+  max-width: 1000px;
+  background-color: var(--cor7);
+  margin: auto;
+  padding: 18px;
+  margin-top: 35px;
+  border-radius: 30px;
+}
+
+main h1 {
+  font-family: var(--fonte-padrao);
+  color: var(--cor5);
+}
+
+main p {
+  font-size: 16px;
+  text-align: justify;
+  text-indent: 10px;
+  line-height: 20px;
+  margin: 20px 0px;
+}
+
+main strong {
+  color: black;
+}
+
+main h2 {
+  font-family: var(--fonte-padrao);
+  color: var(--cor1);
+  background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+main a {
+  text-decoration: none;
+  color: var(--cor3);
+  font-weight: bold;
+  padding: 3px;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: var(--cor6);
+}
+
+#tardis {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+#doctors {
+  width: 350px;
+  margin: auto;
+  display: block;
+}
+
+.inimigos {
+  width: 350px;
+  margin: auto;
+  display: inline;
+  padding: 60px;
+}
+
+#primeiroDoutor {
+  width: 500px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+#QuintoDoutor {
+  width: 350px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+#dalek {
+  width: 400px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+#doctor10 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+#cena {
+  width: 400px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+#doctor10novo {
+  width: 400px;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+.trailer {
+  text-align: center;
+  margin: auto;
+  display: block;
+  max-width: 75%;
+}
+
+aside {
+  background-color: var(--cor3);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+aside h3 {
+  background-color: var(--cor5);
+  color: var(--cor1);
+  text-decoration: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.externo::after {
+  content: "\00A0\1f517";
+}
+
+main li {
+  margin-left: 30px;
+}
+
+aside li {
+  color: var(--cor7);
+}
